@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Contacts</h1>
+  <ul>
+    <li><a href="mailto:someone@gmail.com" alt="email of someone">email</a></li>
+    <li><address>Kyiv</address></li>
+  </ul>
+  <br><br>
+
+  <form action="mailto:aleksey.mezentsev@gmail.com" method="post" name="My first big Form" enctype="text/plain">
+    <fieldset style="width:50%;">
+      <legend><strong><em>The best form ever</em></strong></legend>
+    <label for="fname">First Name:</label><br>
+    <input type="text" name="fname" id="fname"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" name="lname" id="lname"><br><br><br>
+
+    <input type="radio" name="Residence" id="USA" value="USA">
+    <label for="USA">USA</label><br>
+    <input type="radio" name="Residence" id="Canada" value="Canada">
+    <label for="Canada">Canada</label><br>
+    <input type="radio" name="Residence" id="Ukraine" value="Ukraine">
+    <label for="Ukraine">Ukraine</label><br><br><br>
+
+    <input type="checkbox" name="Visa" id="USA" value="USA">
+    <label for="USA">Visa to USA</label><br>
+    <input type="checkbox" name="Visa" id="Canada" value="Canada">
+    <label for="Canada">Visa to Canada</label><br><br><br>
+
+    <label for="property">Do ypu have property?</label>
+    <select name="property" id="property">
+      <option value="Car ownership">I have a car</option>
+      <option value="House ownership">I have a house</option>
+      <option value="Nothing ownership">Nothing at all</option>
+    </select><br><br><br>
+    <textarea name="Your Text" id="Your Text" cols="30" rows="10">
+      Enter your text here
+    </textarea><br><br><br>
+    <label for="Input Types">Input Types</label><br><br>
+    <input type="button" value="Input Types">
+    <input type="checkbox" name="Input Types" id="Inpute Types">
+    <input type="date" name="Input Types" id="Input Types">
+    <input type="email" name="Input Types" id="Input Types">
+    <input type="file" name="Input Types" id="Input Types">
+    <input type="image" src="\Images\photo_2021-12-13_11-49-17.jpg" alt="">
+    <input type="password" name="Input Types" id="Input Types">
+    <input type="radio" name="Input Types" id="Input Types">
+    <input type="search" name="Input Types" id="Input Types">
+    <br><br>
+    <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+    <br><br>
+    <input type="submit" value="Submit">
+    <br><br><br>
+    </fieldset>
+  </form>
+
+   
+
+</body>
+</html>
